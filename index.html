@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Jogo da Memória</title>
+    <!-- Referência ao arquivo de estilo da página -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Referência ao script principal do jogo -->
+    <script src="script14.js"></script>
+</head>
+<body>
+    <!-- Área de controle do jogo (seleção de tema e início) -->
+    <div id="controle">
+        <label for="jogoSelect">Escolha o tema do jogo: </label>
+        <select id="jogoSelect">
+            <option value="macacos">Macacos</option>
+            <option value="domesticos">Animais Domésticos</option>
+            <option value="marinhos">Animais Marinhos</option>
+        </select>
+        <button id="btnStart">Iniciar Jogo</button>
+    </div>
+
+    <!-- Tabuleiro do jogo: será modificado dinamicamente pelo JavaScript e estilizado pelo CSS -->
+    <div id="tabuleiro">
+        <div id="linhaSuperior"></div>
+        <div id="linhaInferior"></div>
+    </div>
+</body>
+</html>

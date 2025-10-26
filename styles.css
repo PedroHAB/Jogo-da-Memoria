@@ -1,0 +1,97 @@
+/* Estilo da página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Configuração geral do corpo da página */
+body {
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    color: #333;
+}
+
+/* Área de controle (seleção de tema e botão iniciar) */
+#controle {
+    background-color: #ffffffcc;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo do seletor e do botão */
+#jogoSelect, #btnStart {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Botão "Iniciar Jogo" */
+#btnStart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+#btnStart:hover {
+    background-color: #45a049;
+}
+
+/* Área do tabuleiro do jogo */
+#tabuleiro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+}
+
+/* Linhas superior e inferior do tabuleiro */
+#linhaSuperior,
+#linhaInferior {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilo das cartas do jogo */
+.carta {
+    font-size: 4.5rem;
+    width: 130px;
+    height: 130px;
+    background-color: #ffffffee;
+    border: 4px solid #222;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse sobre as cartas */
+.carta:hover {
+    transform: scale(1.1);
+    background-color: #f8f8f8;
+}
