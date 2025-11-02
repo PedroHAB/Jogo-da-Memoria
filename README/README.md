@@ -19,7 +19,7 @@ Ao acessar o link, a página mostrará um selecionador com as [opções de tema]
 - Animais domésticos;
 - Animais marinhos;
 
-![Tela inicial com opções de tema de cartas do jogo da memória.](/opc_JM.png)
+![Tela inicial com opções de tema de cartas do jogo da memória.](/README/opc_JM.png)
 
 Ao selecionar uma das opções, selecione a opção ao lado **Iniciar Jogo**.
 
@@ -89,5 +89,6 @@ Contudo, apesar de sua simplicidade, o código possibilita a aplicação futura 
 
 - Pedro Henrick A. Braga - desenvolvedor e elaborador do sistema;
 - Mayra G.M. dos Santos e Lucas N. Grandini - documentação e relatório do projeto.
+
 
 
