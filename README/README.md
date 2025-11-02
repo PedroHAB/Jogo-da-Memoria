@@ -25,25 +25,25 @@ Ao selecionar uma das opções, selecione a opção ao lado **Iniciar Jogo**.
 
 Em seguida, um conjunto de oito cartas aparecerá na tela, iniciando a partida. 
 
-![Tela mostra a iniciação do jogo, mostrando a opção um conjunto de 8 cartas.](/inicio_JM.png)
+![Tela mostra a iniciação do jogo, mostrando a opção um conjunto de 8 cartas.](/README/inicio_JM.png)
 
 Em cada rodada, duas cartas devem ser selecionadas, com a segunda sendo igual a primeira. Caso as cartas não possuam a mesma ilustração, ambas serão ocultadas novamente. Senão, elas ficaram visiveís ao jogador durantes as próximas rodadas com as cartas restantes.
 
 As rodadas devem ser repetidas até que todos os pares sejam encontrados, assim, finalizando a partida!
 
-![Tela mostra a mensagem em formato de 'alert' de navegador com a mensagem 'Bom jogo, você ganhou!!'](/vitoria_JM.png)
+![Tela mostra a mensagem em formato de 'alert' de navegador com a mensagem 'Bom jogo, você ganhou!!'](/README/vitoria_JM.png)
 
 ### Galeria de temas da partida
 
 - Tema "Macacos"
 
-![Tema Macacos'](/macacos_JM.png)
+![Tema Macacos'](/README/macacos_JM.png)
 - Tema "Animais Domésticos"
 
-!['Tema Animais Domésticos'](/domesticos.png)
+!['Tema Animais Domésticos'](/README/domesticos.png)
 - Temas "Animais Marinhos"
 
-!['Tema Animais Marinhos'](/marinhos_JM.png)
+!['Tema Animais Marinhos'](/README/marinhos_JM.png)
 
 ## Princípios SOLID aplicados
 
@@ -89,6 +89,7 @@ Contudo, apesar de sua simplicidade, o código possibilita a aplicação futura 
 
 - Pedro Henrick A. Braga - desenvolvedor e elaborador do sistema;
 - Mayra G.M. dos Santos e Lucas N. Grandini - documentação e relatório do projeto.
+
 
 
 
